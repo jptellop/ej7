@@ -34,7 +34,7 @@ fig.add_trace(go.Scatter(x=t1, y=x1_t, mode='lines', name='f1=10Hz'))
 fig.update_layout(
     title="Señal Sinusoidal",
     xaxis_title="Time (s)",
-    yaxis_title="mV"
+    yaxis_title="mV",
     showlegend=True
 )
 fig.show()
